@@ -11,12 +11,22 @@ pinned: false
 
 # 🎯 Marketing-Interessengruppen Vorhersage (K-Means)
 
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://csv-extractor-ai-080526.streamlit.app/)
+
 ![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)
 ![Streamlit](https://img.shields.io/badge/Streamlit-1.57-red.svg)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-1.8.0-orange.svg)
 ![Claude Code](https://img.shields.io/badge/Built%20with-Claude%20Code-8A2BE2.svg)
 
 Interaktive **Streamlit**-Webanwendung, die **Machine Learning (K-Means Clustering)** nutzt, um Nutzer in Interessengruppen zu segmentieren. Ziel ist es, Marketingkampagnen durch eine präzise Zielgruppenansprache effektiver zu gestalten.
+
+---
+
+## 🌐 Live Demo
+
+👉 **[https://csv-extractor-ai-080526.streamlit.app/](https://csv-extractor-ai-080526.streamlit.app/)**
+
+Die App ist live auf **Streamlit Community Cloud** gehostet. Einfach im Browser öffnen, eine CSV-Datei hochladen und die vorhergesagten Interessengruppen visualisieren.
 
 > 💡 **Dies war mein erstes Projekt, das mit [Claude Code](https://claude.com/claude-code) realisiert wurde.** Eine wirklich interessante und sehr praktische Erfahrung — von der Optimierung des Codes mit Schema-Validierung über die Generierung von Testdaten bis hin zum Deployment auf GitHub verlief alles flüssig und kollaborativ.
 
