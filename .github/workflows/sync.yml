@@ -1,0 +1,16 @@
+name: Sync to Hugging Face
+on:
+  push:
+    branches: [main]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          lfs: true
+      - name: Push to hub
+        env:
+          HF_TOKENN: ${{ secrets.HF_TOKENN }}
+        run: git push --force https://RuanaRamos:$HF_TOKENN@huggingface.co/spaces/Ruanaramos/CSV-Extractor-AI main
